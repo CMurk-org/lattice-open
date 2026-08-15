@@ -1,0 +1,16 @@
+Lattice Open — cellular evidence interoperability toolkit
+
+Copyright (c) 2026 Alvand Kiumarsi
+Published by CMurk
+
+Licensed under the Mozilla Public License, Version 2.0 (MPL-2.0).
+You may obtain a copy of the licence at https://mozilla.org/MPL/2.0/
+
+This repository contains the open interoperability layer only: the normalized
+cellular-record schema, carrier file parsers, generic tabular ingestion,
+record validation, evidence hashing and manifest verification, geodesy, and
+export utilities.
+
+The analytical system built on top of it — correlation, location estimation,
+pattern detection, findings and report generation — is a separate proprietary
+work and is not covered by this licence.
