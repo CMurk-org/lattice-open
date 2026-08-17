@@ -1,0 +1,28 @@
+{
+  "name": "@cmurk/cellular-schema",
+  "version": "0.1.0",
+  "description": "Normalized cellular-record schema, evidence layers, provenance and integrity verification",
+  "license": "MPL-2.0",
+  "author": "Alvand Kiumarsi",
+  "contributors": [
+    "CMurk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMurk-org/lattice-open.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "luxon": "^3.5.0"
+  }
+}

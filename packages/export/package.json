@@ -1,0 +1,28 @@
+{
+  "name": "@cmurk/cellular-export",
+  "version": "0.1.0",
+  "description": "KML, CSV and GeoJSON export of normalized cellular records, with caveats carried in-file",
+  "license": "MPL-2.0",
+  "author": "Alvand Kiumarsi",
+  "contributors": [
+    "CMurk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMurk-org/lattice-open.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@cmurk/cellular-schema": "workspace:*"
+  }
+}

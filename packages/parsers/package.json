@@ -1,0 +1,30 @@
+{
+  "name": "@cmurk/cellular-parsers",
+  "version": "0.1.0",
+  "description": "Carrier file parsers and generic CSV/TSV/XLSX/JSON/ZIP ingestion for cellular records",
+  "license": "MPL-2.0",
+  "author": "Alvand Kiumarsi",
+  "contributors": [
+    "CMurk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMurk-org/lattice-open.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@cmurk/cellular-schema": "workspace:*",
+    "exceljs": "^4.4.0",
+    "fflate": "^0.8.2"
+  }
+}
